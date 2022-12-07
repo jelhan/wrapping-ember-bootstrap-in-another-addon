@@ -1,0 +1,6 @@
+<BsButton @onClick={{@onClick}} @type={{@type}} ...attributes as |button|>
+  {{yield}}
+  {{#if button.isPending}}
+    <Spinner />
+  {{/if}}
+</BsButton>

@@ -1,5 +1,14 @@
 {{page-title "Dummy"}}
 
-<h2 id="title">Welcome to Ember</h2>
+<div class="container">
+  <h1>Use Ember Bootstrap in an addon</h1>
 
-{{outlet}}
+  <p>
+    This addon implements a &lt;Button&gt; component by wrapping Ember Bootstrap's
+    &lt;BsButton&gt; component.<br>
+    The &lt;Button&gt; component renders a loading spinner as long as an action
+    passed as <code>@onClick</code> argument is pending.
+  </p>
+
+  {{outlet}}
+</div>
